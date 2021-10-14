@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            prefHeight="180.0" prefWidth="220.0"
+            style="-fx-background-color: #bfa;">
+
+</AnchorPane>

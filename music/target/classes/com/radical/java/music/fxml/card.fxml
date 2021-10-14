@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.radical.java.music.ctrl.MusicCtrl"
+            prefHeight="190.0" prefWidth="150.0"
+            styleClass="card">
+    <ImageView fitWidth="60" fitHeight="60" layoutY="-35" layoutX="45">
+        <image>
+            <Image url="@../icon/music.png"/>
+        </image>
+    </ImageView>
+    <Label text="音乐" layoutX="60" layoutY="80" styleClass="title"/>
+
+</AnchorPane>
