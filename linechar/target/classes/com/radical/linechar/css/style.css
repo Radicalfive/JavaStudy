@@ -1,0 +1,44 @@
+.invisibleBox {
+    -fx-background-color: transparent;
+}
+
+.topBar {
+    -fx-background-radius: 25 25 0 0;
+    -fx-background-color: #d1ccc0;
+}
+
+.background {
+    -fx-background-color: #227093;
+    -fx-background-radius: 25;
+}
+
+.closeButton {
+    -fx-background-color: #ccae62;
+}
+.closeButton:hover {
+    -fx-background-color: #33d9b2;
+}
+
+.chart {
+    -fx-background-color: #34ace0;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-legend-visible: false;
+}
+.axis-label {
+    -fx-text-fill: #ffffff;
+}
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+.default-color0.chart-series-line {
+    -fx-stroke: #b33939;
+}
+.default-color1.chart-series-line {
+    -fx-stroke: #474787;
+}
+.default-color2.chart-series-line {
+    -fx-stroke: #cc8e35;
+}
+
+
