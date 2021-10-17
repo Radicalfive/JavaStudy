@@ -5,4 +5,7 @@ module com.wx.javajfx {
 
     opens com.wx.java.jfx.ctrl to javafx.fxml;
     exports com.wx.java.jfx;
+
+    requires com.github.oshi;
+    requires fastjson;
 }

@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-jfx" />
+        <module name="jfx-basic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java-jfx" target="11" />
+      <module name="jfx-basic" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>
