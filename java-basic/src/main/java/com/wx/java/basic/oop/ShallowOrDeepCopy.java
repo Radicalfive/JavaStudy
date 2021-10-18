@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ShallowOrDeepCopy {
     public static void main(String[] args) throws CloneNotSupportedException {
-        Student student = new Student();
+        Student1 student = new Student1();
         student.setId(1);
         student.setName("wx");
         Address address = new Address();
@@ -13,7 +13,7 @@ public class ShallowOrDeepCopy {
         address.setDescribe("江苏南京");
         student.setAddress(address);
 
-        Student cloneStudent = (Student) student.clone();
+        Student1 cloneStudent = (Student1) student.clone();
         log.info("*******************浅拷贝or深拷贝************************");
         log.info("student == cloneStudent: {}" , student == cloneStudent);
         log.info("二级对象内容: {} " , student.getAddress() == cloneStudent.getAddress());

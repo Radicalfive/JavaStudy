@@ -12,7 +12,7 @@ class Address implements Cloneable{
     }
 }
 @Data
-class Student implements Cloneable{
+class Student1 implements Cloneable{
     private Integer id;
     private String name;
     private Address address;
@@ -26,7 +26,7 @@ class Student implements Cloneable{
     // @Override
     // protected Object clone() throws CloneNotSupportedException {
     //    //浅拷贝
-    //    Student s = (Student) super.clone();
+    //    Student1 s = (Student1) super.clone();
     //    s.address = (Address) this.address.clone();
     //    return s;
     //}
