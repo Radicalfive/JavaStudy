@@ -12,7 +12,7 @@ import java.util.regex.Pattern;
 
 @Slf4j
 public class URLRegExSample {
-    private static final String SIE_URL = "https://mqxu.top";
+    private static final String SIE_URL = "http://wallpaperswide.com/watcher-wallpapers.html";
     private static final String IMG_PATTERN = "<img.*?>" ;
     private static final String HTTPS_PATTERN = "\"https?(.*?)(\"|>|\\s+)";
 
