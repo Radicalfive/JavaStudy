@@ -1,30 +1,41 @@
 package com.radical.chatui;
 
 
+import com.radical.chatui.view.login.ILoginMethod;
+import com.radical.chatui.view.login.LoginController;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.io.IOException;
-/**
- * @author radical
- * @date
- */
 
+/**
+ * 启动主类
+ * @author radical
+ */
 public class Main extends Application {
+
     @Override
-        public void start(Stage stage) throws IOException {
-            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("view/login/login.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 540, 420);
-            stage.setTitle("Login!");
-            stage.setScene(scene);
-            stage.initStyle(StageStyle.TRANSPARENT);
-            stage.show();
+    public void start(Stage stage) throws IOException {
+        ILoginMethod login = new LoginController((userId, userPassword) -> {
+            System.out.println("登陆 userId：" + userId + "userPassword：" + userPassword);
+        });
+        login.doShow();
     }
+
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 }
+//public class Main extends Application {
+//
+//    @Override
+//    public void start(Stage stage) throws IOException {
+//        IChatMethod chat = new ChatController();
+//        chat.doShow();
+//    }
+//
+//    public static void main(String[] args) {
+//        launch(args);
+//    }
+//}
