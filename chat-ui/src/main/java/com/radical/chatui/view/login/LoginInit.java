@@ -9,7 +9,6 @@ import javafx.scene.paint.Color;
 import javafx.stage.StageStyle;
 import com.radical.chatui.Main;
 import com.radical.chatui.view.UIObject;
-
 import java.io.IOException;
 import java.util.Objects;
 

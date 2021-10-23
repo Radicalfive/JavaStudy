@@ -15,10 +15,14 @@ public abstract class UIObject extends Stage {
     protected Parent root;
     private double xOffset;
     private double yOffset;
-
     public <T> T $(String id) {
         return (T) root.lookup("#" + id);
     }
+
+    public <T> T $(String id,Class name) {
+        return (T) root.lookup("#" + id);
+    }
+
 
     /**
      * 窗体拖拽移动

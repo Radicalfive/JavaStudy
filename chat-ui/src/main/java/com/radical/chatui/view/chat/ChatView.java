@@ -3,7 +3,7 @@ package com.radical.chatui.view.chat;
 /**
  * 窗体的展示
  *
- * @author mqxu
+ * @author radical
  */
 public class ChatView {
 
