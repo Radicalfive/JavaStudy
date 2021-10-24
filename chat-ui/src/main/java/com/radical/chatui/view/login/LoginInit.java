@@ -1,5 +1,7 @@
 package com.radical.chatui.view.login;
 
+import com.radical.chatui.Main;
+import com.radical.chatui.view.UIObject;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -7,14 +9,14 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
 import javafx.stage.StageStyle;
-import com.radical.chatui.Main;
-import com.radical.chatui.view.UIObject;
+
 import java.io.IOException;
 import java.util.Objects;
 
 /**
  * 窗体的初始化操作，可以创建一些待填充的元素
- * @author radical
+ *
+ * @author mqxu
  */
 public abstract class LoginInit extends UIObject {
 
@@ -46,11 +48,12 @@ public abstract class LoginInit extends UIObject {
     }
 
     private void obtain() {
-        loginMin = $("loginMin");
-        loginClose = $("loginClose");
-        loginButton = $("loginButton");
-        userId = $("userId");
-        userPassword = $("userPassword");
+        loginMin = $("loginMin", Button.class);
+        loginClose = $("loginClose", Button.class);
+        loginButton = $("loginButton", Button.class);
+        userId = $("userId", TextField.class);
+        userPassword = $("userPassword", PasswordField.class);
     }
 
 }
+

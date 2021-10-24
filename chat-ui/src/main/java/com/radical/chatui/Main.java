@@ -1,7 +1,9 @@
 package com.radical.chatui;
 
 import com.radical.chatui.view.chat.ChatController;
+import com.radical.chatui.view.chat.IChatEvent;
 import com.radical.chatui.view.chat.IChatMethod;
+import com.radical.chatui.view.login.ILoginEvent;
 import com.radical.chatui.view.login.ILoginMethod;
 import com.radical.chatui.view.login.LoginController;
 import javafx.application.Application;
@@ -24,29 +26,57 @@ public class Main extends Application {
             if ("radical".equals(userId) && "123".equals(userPassword)) {
                 //登录成功，弹出窗口
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                alert.titleProperty().set("提示");
-                alert.headerTextProperty().set("登录成功！");
+                alert.titleProperty().set("微聊");
+                alert.headerTextProperty().set("欢迎使用微聊，祝您生活愉快");
                 alert.showAndWait();
-                IChatMethod chat = new ChatController();
+                IChatMethod chat = new ChatController(new IChatEvent() {
+                });
                 chat.doShow();
-                // 填充对话框测试数据
-                chat.addTalkBox(-1, 0, "1000001", "王潇", "https://urlify.cn/FjIjmm", "如困兽之斗", new Date(), true);
-                chat.addTalkBox(-1, 0, "1000002", "许老师", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/me.jpg", "开到荼蘼", new Date(), false);
-                chat.addTalkBox(-1, 0, "1000003", "杨阳大佬", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/1.jpg", "这世界只有10种人，一种是程序员，一种不是。", new Date(), false);
-                chat.addTalkBox(-1, 0, "1000004", "尚宇驰学姐", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/2.jpg", "PuTTY本无树，MinGW亦非台。", new Date(), false);
-                chat.addTalkBox(-1, 0, "1000005", "陈蓉琪学姐", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/3.jpg", "Write the code. Change the world.", new Date(), false);
-                chat.addTalkBox(-1, 0, "1000006", "王林大佬", "https://urlify.cn/jMZZri", "生产队的驴", new Date(), false);
-                chat.addTalkBox(-1, 0, "1000007", "金帅", "https://urlify.cn/muQRji", "305内卷最严重之人", new Date(), true);
-                chat.addTalkBox(-1, 0, "1000008", "吴文杰", "https://urlify.cn/EnEFFz", "呼呼哈嘿，，，，", new Date(), false);
-                chat.addTalkBox(-1, 0, "1000009", "陈东兴", "https://urlify.cn/Q3qEVb", "哈哈哈哈哈哈", new Date(), false);
-                chat.addTalkBox(0, 1, "5307397", "ssy松山院", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/5.jpg", "松山院~学习之路", new Date(), false);
-                chat.addTalkBox(0, 1, "5307398", "筠竹苑", "https://urlify.cn/VreIRv", "筠竹苑~~305宿舍yyds", new Date(), false);
+                chat.setUserInfo("1000001", "radical", "https://urlify.cn/FjIjmm");
+
+                // 好友 - 对话框
+                chat.addTalkBox(-1, 0, "1000001", "金帅", "https://urlify.cn/jMZZri", "", new Date(), false);
+                chat.addTalkMsgRight("1000001", "且将新火试新茶 诗酒趁年华", new Date(), true, true, false);
+                chat.addTalkMsgUserLeft("1000001", "说个鬼呀，明天早上帮我带份饭", new Date(), true, false, true);
+
+                chat.addTalkBox(-1, 0, "1000002", "吴文杰", "https://urlify.cn/muQRji", "", new Date(), false);
+                chat.addTalkMsgRight("1000002", "如困兽之斗", new Date(), true, false, false);
+                chat.addTalkMsgUserLeft("1000002", "青春逢盛世", new Date(), true, true, false);
+                chat.addTalkMsgUserLeft("1000002", "奋斗正当时", new Date(), true, false, true);
+
+                chat.addTalkBox(-1, 0, "1000003", "许隆", "https://urlify.cn/EnEFFz", "", new Date(), false);
+                chat.addTalkMsgRight("1000003", "论在人间凑数的日子", new Date(), true, false, false);
+                chat.addTalkMsgUserLeft("1000003", "南工院生存指南：", new Date(), true, false, true);
+                chat.addTalkMsgUserLeft("1000003", "如何在一群卷王之中生活下去", new Date(), true, true, true);
+
+                chat.addTalkBox(-1, 0, "1000004", "陈冬兴", "https://urlify.cn/Q3qEVb", "", new Date(), false);
+                chat.addTalkMsgRight("1000004", "明天啥时候起，记得喊我声", new Date(), true, false, false);
+                chat.addTalkMsgUserLeft("1000004", "好的好的", new Date(), true, true, false);
+                chat.addTalkMsgUserLeft("1000004", "没问题！！", new Date(), true, false, true);
+
+                chat.addTalkBox(-1, 0, "1000005", "郝鑫", "https://urlify.cn/VreIRv", "", new Date(), false);
+                chat.addTalkMsgRight("1000005", "明天晚上去跑步呀", new Date(), true, false, false);
+                chat.addTalkMsgUserLeft("1000005", "OK OK", new Date(), true, true, false);
+                chat.addTalkMsgUserLeft("1000005", "明天晚上一起去", new Date(), true, false, true);
+
+                // 群组 - 对话框
+                chat.addTalkBox(0, 1, "5307397", "人类高质量男性", "https://urlify.cn/muQRji", "", new Date(), true);
+                chat.addTalkMsgRight("5307397", "明天满课，别卷了，求求了", new Date(), true, true, false);
+                chat.addTalkMsgRight("5307397", "睡觉吧，狗命要紧！！！", new Date(), true, true, false);
+                chat.addTalkMsgGroupLeft("5307397", "1000003", "许隆", "https://urlify.cn/EnEFFz", "睡什么睡！", new Date(), true, false, true);
+                chat.addTalkMsgGroupLeft("5307397", "1000004", "陈冬兴", "https://urlify.cn/Q3qEVb", "这就是当代大学生嘛", new Date(), true, false, true);
+                chat.addTalkMsgGroupLeft("5307397", "1000002", "吴文杰", "https://urlify.cn/muQRji", "你怎么睡得着的", new Date(), true, false, true);
+                chat.addTalkMsgGroupLeft("5307397", "1000001", "金帅", "https://urlify.cn/jMZZri", "你这个年龄阶段，怎么睡得着的", new Date(), true, false, true);
+                chat.addTalkMsgGroupLeft("5307397", "1000005", "郝鑫", "https://urlify.cn/VreIRv", "你睡得什么的觉！", new Date(), true, false, true);
+                chat.addTalkMsgRight("5307397", "好吧好吧，吴文杰明天帮我带早饭哈", new Date(), true, true, false);
             }
             else {
-                //弹出窗口，提示登录失败
-                Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                alert.titleProperty().set("提示");
-                alert.headerTextProperty().set("登录失败！");
+                ILoginMethod loginMethod = new LoginController(new ILoginEvent() {
+                    @Override
+                    public void doLoginCheck(String userId, String userPassword) {
+                    }
+                });
+                loginMethod.doLoginError();
             }
         });
         login.doShow();

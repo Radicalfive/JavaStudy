@@ -2,7 +2,7 @@ package com.radical.chatui.view.login;
 
 /**
  * 窗体事件定义，例如将登陆、最小化、退出等在这里完成定义
- * @author radical
+ * @author mqxu
  */
 public class LoginEventDefine {
 

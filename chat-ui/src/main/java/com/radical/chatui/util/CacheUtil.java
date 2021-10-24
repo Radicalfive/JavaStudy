@@ -1,7 +1,7 @@
 package com.radical.chatui.util;
 
 
-import com.radical.chatui.view.chat.element.group_bar_chat.ElementTalk;
+import com.radical.chatui.view.chat.group_bar_chat.ElementTalk;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

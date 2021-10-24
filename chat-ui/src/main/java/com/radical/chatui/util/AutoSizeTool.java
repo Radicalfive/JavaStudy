@@ -1,6 +1,5 @@
 package com.radical.chatui.util;
 
-
 /**
  * 获取尺寸工具
  *
