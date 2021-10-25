@@ -1,12 +1,17 @@
 package com.radical.chatui.view.chat;
 
 import com.radical.chatui.view.chat.data.TalkBoxData;
+import com.radical.chatui.view.face.FaceController;
 import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.Pane;
 
 import java.util.Date;
 
+/**
+ *
+ * @author radical
+ */
 public class ChatEventDefine {
 
     private final ChatInit chatInit;
@@ -27,6 +32,7 @@ public class ChatEventDefine {
         this.barSet();
         doEventTextSend();   // 发送消息事件[键盘]
         doEventTouchSend();  // 发送消息事件[按钮]
+        doEventToolFace();   // 获取表情包事件
     }
 
     /**
@@ -105,7 +111,7 @@ public class ChatEventDefine {
             if (visible) {
                 return;
             }
-            barChat.getGraphic().setStyle("-fx-icon-color:'#F6F6F6'");
+            barChat.getGraphic().setStyle("-fx-icon-color:'#3c6382'");
         });
         barChat.setOnMouseExited(event -> {
             boolean visible = groupBarChat.isVisible();
@@ -131,7 +137,7 @@ public class ChatEventDefine {
             if (visible) {
                 return;
             }
-            barFriend.getGraphic().setStyle("-fx-icon-color:'#F6F6F6'");
+            barFriend.getGraphic().setStyle("-fx-icon-color:'#3c6382'");
         });
         barFriend.setOnMouseExited(event -> {
             boolean visible = groupBarFriend.isVisible();
@@ -157,7 +163,7 @@ public class ChatEventDefine {
             if (visible) {
                 return;
             }
-            barLocation.getGraphic().setStyle("-fx-icon-color:'#F6F6F6'");
+            barLocation.getGraphic().setStyle("-fx-icon-color:'#3c6382'");
         });
         barLocation.setOnMouseExited(event -> {
             boolean visible = groupBarLocation.isVisible();
@@ -183,7 +189,7 @@ public class ChatEventDefine {
             if (visible) {
                 return;
             }
-            barSet.getGraphic().setStyle("-fx-icon-color:'#F6F6F6'");
+            barSet.getGraphic().setStyle("-fx-icon-color:'#3c6382'");
         });
         barSet.setOnMouseExited(event -> {
             boolean visible = groupBarSet.isVisible();
@@ -233,5 +239,17 @@ public class ChatEventDefine {
         // 发送事件给自己添加消息
         chatMethod.addTalkMsgRight(talkBoxData.getTalkId(), msg, msgDate, true, true, false);
         txt_input.clear();
+    }
+
+    /**
+     * face
+     * 处理表情框事件
+     */
+    private void doEventToolFace() {
+        FaceController face = new FaceController(chatInit, chatInit, chatEvent, chatMethod);
+        Button tool_face = chatInit.$("tool_face", Button.class);
+        tool_face.setOnMousePressed(event -> {
+            face.doShowFace(chatMethod.getToolFaceX(), chatMethod.getToolFaceY());
+        });
     }
 }

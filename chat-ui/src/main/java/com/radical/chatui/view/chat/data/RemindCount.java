@@ -3,7 +3,7 @@ package com.radical.chatui.view.chat.data;
 /**
  * 消息提醒
  *
- * @author mqxu
+ * @author radical
  */
 public class RemindCount {
 

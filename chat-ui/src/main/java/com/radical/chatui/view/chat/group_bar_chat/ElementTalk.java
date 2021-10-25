@@ -17,7 +17,7 @@ import java.util.Date;
 /**
  * 对话框元素，好友对话列表框元素
  *
- * @author mqxu
+ * @author radical
  */
 public class ElementTalk {
     /**

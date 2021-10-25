@@ -2,7 +2,7 @@ package com.radical.chatui.view.chat.data;
 /**
  * 群组数据(ElementFriendGroup)
  *
- * @author mqxu
+ * @author radical
  */
 public class GroupsData {
     /**

@@ -3,7 +3,7 @@ package com.radical.chatui.view.login;
 /**
  * 方法接口类，桌面程序的开发基本都是事件触达和等待回调，那么我们给外部提供接口主要用于类似登陆处理完毕后，
  * 来执行相应方法进行窗体切换或者数据填充
- * @author mqxu
+ * @author radical
  */
 public interface ILoginMethod {
 

@@ -10,7 +10,7 @@ import javafx.scene.layout.Pane;
 /**
  * 聊天框对话信息
  *
- * @author mqxu
+ * @author radical
  */
 public class ElementInfoBox {
 

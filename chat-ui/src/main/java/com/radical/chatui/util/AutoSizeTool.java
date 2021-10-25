@@ -3,7 +3,7 @@ package com.radical.chatui.util;
 /**
  * 获取尺寸工具
  *
- * @author mqxu
+ * @author radical
  */
 public class AutoSizeTool {
 

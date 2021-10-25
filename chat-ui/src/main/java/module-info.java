@@ -15,4 +15,7 @@ module com.radical.chatui {
 
     opens com.radical.chatui.view.chat to javafx.fxml;
     exports com.radical.chatui.view.chat;
+
+    opens com.radical.chatui.view.face to javafx.fxml;
+    exports com.radical.chatui.view.face;
 }

@@ -9,7 +9,7 @@ import com.radical.chatui.view.chat.data.TalkBoxData;
 /**
  * 窗体的展示
  *
- * @author mqxu
+ * @author radical
  */
 public class ChatView {
 

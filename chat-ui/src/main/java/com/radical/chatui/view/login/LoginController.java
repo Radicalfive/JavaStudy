@@ -5,7 +5,7 @@ import javafx.scene.control.Alert;
 /**
  * 窗体的控制管理类，也是一个窗体的管家，它会继承窗体的装载、实现接口方法、初始化界面、初始化事件定义
  *
- * @author mqxu
+ * @author radical
  */
 public class LoginController extends LoginInit implements ILoginMethod {
 

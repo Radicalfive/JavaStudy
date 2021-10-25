@@ -2,7 +2,7 @@ package com.radical.chatui.view.login;
 
 /**
  * 窗体事件定义，例如将登陆、最小化、退出等在这里完成定义
- * @author mqxu
+ * @author radical
  */
 public class LoginEventDefine {
 
@@ -19,6 +19,7 @@ public class LoginEventDefine {
         min();
         quit();
         doEventLogin();
+        //doEventTSend();
     }
 
     /**
@@ -50,4 +51,15 @@ public class LoginEventDefine {
             loginEvent.doLoginCheck(loginInit.userId.getText(), loginInit.userPassword.getText());
         });
     }
+    ///**
+    // * 登录快捷键
+    // */
+    //private void doEventTSend() {
+    //    TextArea loginButton = LoginInit.(TextArea.getClassCssMetaData("loginButton"));
+    //    loginButton.setOnKeyPressed(event -> {
+    //        if (event.getCode().equals(KeyCode.ENTER)) {
+    //            doEventLogin();
+    //        }
+    //    });
+    //}
 }

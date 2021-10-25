@@ -3,7 +3,7 @@ package com.radical.chatui.view.login;
 /**
  * 窗体的展示，主要用于扩展一些随着用户操作新展示的元素，例如后续在聊天窗体新增的消息提醒等
  *
- * @author mqxu
+ * @author radical
  */
 public class LoginView {
     private LoginInit loginInit;

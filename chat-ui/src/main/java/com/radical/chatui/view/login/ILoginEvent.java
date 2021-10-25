@@ -3,7 +3,7 @@ package com.radical.chatui.view.login;
 /**
  * 事件接口类，具体实现交给调用方。例如我们在点击登陆后将属于窗体的功能处理完毕后，实际的验证交给外部
  *
- * @author mqxu
+ * @author radical
  */
 public interface ILoginEvent {
 

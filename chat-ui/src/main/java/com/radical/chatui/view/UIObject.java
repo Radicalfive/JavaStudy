@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 /**
  * UI 父类定义，这是一个抽象类，提供了基础的初始化内容和接口，以及定义抽象方法
  *
- * @author mqxu
+ * @author radical
  */
 public abstract class UIObject extends Stage {
 
@@ -38,6 +38,20 @@ public abstract class UIObject extends Stage {
         root.setOnMouseReleased(event -> {
             root.setCursor(Cursor.DEFAULT);
         });
+    }
+
+    public double x () {
+        return getX();
+    }
+    public double y () {
+        return getY();
+    }
+
+    public double width () {
+        return getWidth();
+    }
+    public double height () {
+        return getHeight();
     }
 
     /**

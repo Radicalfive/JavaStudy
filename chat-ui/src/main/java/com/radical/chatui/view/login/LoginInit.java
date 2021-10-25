@@ -16,7 +16,7 @@ import java.util.Objects;
 /**
  * 窗体的初始化操作，可以创建一些待填充的元素
  *
- * @author mqxu
+ * @author radical
  */
 public abstract class LoginInit extends UIObject {
 

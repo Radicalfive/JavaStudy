@@ -19,7 +19,7 @@ import java.util.Date;
 /**
  * 窗体的控制管理类
  *
- * @author mqxu
+ * @author radical
  */
 public class ChatController extends ChatInit implements IChatMethod {
 
@@ -194,6 +194,15 @@ public class ChatController extends ChatInit implements IChatMethod {
         talkElement.fillMsgSketch(msg, msgData);
         // 设置位置&选中
         chatView.updateTalkListIdxAndSelected(0, talkElement.pane(), talkElement.msgRemind(), idxFirst, selected, isRemind);
+    }
+    @Override
+    public double getToolFaceX() {
+        return x() + width() - 960;
+    }
+
+    @Override
+    public double getToolFaceY() {
+        return y() + height() - 180;
     }
 
 }

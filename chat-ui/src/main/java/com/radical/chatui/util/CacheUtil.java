@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * 缓存工具
- * @author mqxu
+ * @author radical
  */
 public class CacheUtil {
 

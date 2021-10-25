@@ -3,7 +3,7 @@ package com.radical.chatui.view.chat.data;
 /**
  * 对话框用户数据
  *
- * @author mqxu
+ * @author radical
  */
 public class TalkData {
 

@@ -32,12 +32,16 @@ public class Main extends Application {
                 IChatMethod chat = new ChatController(new IChatEvent() {
                 });
                 chat.doShow();
-                chat.setUserInfo("1000001", "radical", "https://urlify.cn/FjIjmm");
+                chat.setUserInfo("1000001", "Radical", "https://urlify.cn/FjIjmm");
 
                 // 好友 - 对话框
-                chat.addTalkBox(-1, 0, "1000001", "金帅", "https://urlify.cn/jMZZri", "", new Date(), false);
-                chat.addTalkMsgRight("1000001", "且将新火试新茶 诗酒趁年华", new Date(), true, true, false);
-                chat.addTalkMsgUserLeft("1000001", "说个鬼呀，明天早上帮我带份饭", new Date(), true, false, true);
+                chat.addTalkBox(0, 1, "1000001", "许老师", "https://urlify.cn/ZNJJJr", "", new Date(), true);
+                chat.addTalkMsgUserLeft("1000001", "别人的1024程序员节VS你的1024程序员节", new Date(), true, false, true);
+                chat.addTalkMsgRight("1000001", "许老师好", new Date(), true, true, false);
+
+                chat.addTalkBox(-1, 0, "1000011", "金帅", "https://urlify.cn/jMZZri", "", new Date(), false);
+                chat.addTalkMsgRight("1000011", "且将新火试新茶 诗酒趁年华", new Date(), true, true, false);
+                chat.addTalkMsgUserLeft("1000011", "说个鬼呀，明天早上帮我带份饭", new Date(), true, false, true);
 
                 chat.addTalkBox(-1, 0, "1000002", "吴文杰", "https://urlify.cn/muQRji", "", new Date(), false);
                 chat.addTalkMsgRight("1000002", "如困兽之斗", new Date(), true, false, false);
@@ -60,13 +64,13 @@ public class Main extends Application {
                 chat.addTalkMsgUserLeft("1000005", "明天晚上一起去", new Date(), true, false, true);
 
                 // 群组 - 对话框
-                chat.addTalkBox(0, 1, "5307397", "人类高质量男性", "https://urlify.cn/muQRji", "", new Date(), true);
+                chat.addTalkBox(0, 1, "5307397", "人类高质量男性（6）", "https://urlify.cn/muQRji", "", new Date(), true);
                 chat.addTalkMsgRight("5307397", "明天满课，别卷了，求求了", new Date(), true, true, false);
                 chat.addTalkMsgRight("5307397", "睡觉吧，狗命要紧！！！", new Date(), true, true, false);
                 chat.addTalkMsgGroupLeft("5307397", "1000003", "许隆", "https://urlify.cn/EnEFFz", "睡什么睡！", new Date(), true, false, true);
                 chat.addTalkMsgGroupLeft("5307397", "1000004", "陈冬兴", "https://urlify.cn/Q3qEVb", "这就是当代大学生嘛", new Date(), true, false, true);
                 chat.addTalkMsgGroupLeft("5307397", "1000002", "吴文杰", "https://urlify.cn/muQRji", "你怎么睡得着的", new Date(), true, false, true);
-                chat.addTalkMsgGroupLeft("5307397", "1000001", "金帅", "https://urlify.cn/jMZZri", "你这个年龄阶段，怎么睡得着的", new Date(), true, false, true);
+                chat.addTalkMsgGroupLeft("5307397", "1000011", "金帅", "https://urlify.cn/jMZZri", "你这个年龄阶段，怎么睡得着的", new Date(), true, false, true);
                 chat.addTalkMsgGroupLeft("5307397", "1000005", "郝鑫", "https://urlify.cn/VreIRv", "你睡得什么的觉！", new Date(), true, false, true);
                 chat.addTalkMsgRight("5307397", "好吧好吧，吴文杰明天帮我带早饭哈", new Date(), true, true, false);
             }

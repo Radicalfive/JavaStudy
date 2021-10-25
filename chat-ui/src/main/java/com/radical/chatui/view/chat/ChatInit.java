@@ -14,7 +14,7 @@ import java.util.Objects;
 /**
  * 窗体的初始化操作
  *
- * @author mqxu
+ * @author radical
  */
 public abstract class ChatInit extends UIObject {
 

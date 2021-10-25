@@ -2,7 +2,7 @@ package com.radical.chatui.util;
 
 /**
  * 组件ID统一定义维护
- * @author mqxu
+ * @author radical
  */
 public class Ids {
 
