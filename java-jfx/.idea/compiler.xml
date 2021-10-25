@@ -13,8 +13,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
       <module name="java-jfx" target="11" />
-      <module name="jfx-basic" target="14" />
-      <module name="netty-demo" target="17" />
+      <module name="jfx-basic" target="17" />
+      <module name="netty-demo" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
