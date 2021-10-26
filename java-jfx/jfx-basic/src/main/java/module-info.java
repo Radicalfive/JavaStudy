@@ -12,6 +12,9 @@ module com.radical.jfxbasic {
     exports com.radical.jfxbasic.trayicon;
     opens com.radical.jfxbasic.trayicon to javafx.fxml;
 
+    exports com.radical.jfxbasic.animate;
+    opens com.radical.jfxbasic.animate to javafx.fxml;
+
     requires com.github.oshi;
     requires fastjson;
     requires java.desktop;
