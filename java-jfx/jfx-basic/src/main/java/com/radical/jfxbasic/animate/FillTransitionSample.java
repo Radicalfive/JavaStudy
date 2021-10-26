@@ -22,14 +22,14 @@ public class FillTransitionSample extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("");
+        primaryStage.setTitle("过渡动画");
         Group root = new Group();
         Scene scene = new Scene(root, 500, 400, Color.WHITE);
         Group g = new Group();
 
         DropShadow ds = new DropShadow();
         ds.setOffsetY(3.0);
-        ds.setColor(Color.color(0.4, 0.4, 0.4));
+        ds.setColor(Color.color(0.6, 0.6, 0.8));
 
         Ellipse ellipse = new Ellipse();
         ellipse.setCenterX(250.0f);

@@ -21,20 +21,21 @@ public class TransitionSample extends Application {
     public void start(Stage stage) {
         Scene scene = new Scene(new Group());
         stage.setTitle("TransitionSample");
-        stage.setWidth(500);
-        stage.setHeight(400);
+        stage.setWidth(600);
+        stage.setHeight(200);
 
         VBox vbox = new VBox();
         vbox.setLayoutX(20);
         vbox.setLayoutY(20);
 
 
-        final String content = "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum";
+        final String content = "True courage is about being honest with yourself. Especially when it's difficult.\n\n" +
+                                "真正的勇者能够诚实地面对自己，尤其是当真相很残酷时。";
         final Text text = new Text(10, 20, "");
 
         final Animation animation = new Transition() {
             {
-                setCycleDuration(Duration.millis(2000));
+                setCycleDuration(Duration.millis(3000));
             }
 
             @Override
