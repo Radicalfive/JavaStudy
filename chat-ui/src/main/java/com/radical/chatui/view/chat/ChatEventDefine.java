@@ -42,6 +42,9 @@ public class ChatEventDefine {
         chatInit.$("group_bar_chat_min", Button.class).setOnAction(event -> {
             chatInit.setIconified(true);
         });
+        chatInit.$("group_bar_friend_min", Button.class).setOnAction(event -> {
+            chatInit.setIconified(true);
+        });
     }
 
     /**
@@ -51,7 +54,10 @@ public class ChatEventDefine {
         chatInit.$("group_bar_chat_close", Button.class).setOnAction(event -> {
             chatInit.close();
             System.exit(0);
-            System.out.println("退出");
+        });
+        chatInit.$("group_bar_friend_close", Button.class).setOnAction(event -> {
+            chatInit.close();
+            System.exit(0);
         });
     }
 

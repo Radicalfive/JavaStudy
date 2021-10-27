@@ -7,6 +7,8 @@ import com.radical.chatui.view.chat.data.RemindCount;
 import com.radical.chatui.view.chat.data.TalkData;
 import com.radical.chatui.view.chat.group_bar_chat.ElementInfoBox;
 import com.radical.chatui.view.chat.group_bar_chat.ElementTalk;
+import com.radical.chatui.view.chat.group_bar_friend.ElementFriendGroup;
+import com.radical.chatui.view.chat.group_bar_friend.ElementFriendUser;
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
@@ -203,6 +205,55 @@ public class ChatController extends ChatInit implements IChatMethod {
     @Override
     public double getToolFaceY() {
         return y() + height() - 180;
+    }
+
+    /**
+     * 添加群组
+     * @param groupId   群组ID
+     * @param groupName 群组名称
+     * @param groupHead 群组头像
+     */
+    @Override
+    public void addFriendGroup(String groupId, String groupName, String groupHead) {
+        ElementFriendGroup elementFriendGroup = new ElementFriendGroup(groupId, groupName, groupHead);
+        Pane pane = elementFriendGroup.pane();
+        // 添加到群组列表
+        ListView<Pane> groupListView = $("groupListView", ListView.class);
+        ObservableList<Pane> items = groupListView.getItems();
+        items.add(pane);
+        groupListView.setPrefHeight(80 * items.size());
+        $("friendGroupList", Pane.class).setPrefHeight(80 * items.size());
+        // 添加监听事件
+        pane.setOnMousePressed(event -> {
+            clearViewListSelectedAll($("friendList", ListView.class), $("userListView", ListView.class));
+        });
+    }
+
+    /**
+     * 添加好友
+     * @param selected     选中;true/false
+     * @param userFriendId
+     * @param userFriendNickName
+     * @param userFriendHead
+     */
+    @Override
+    public void addFriendUser(boolean selected, String userFriendId, String userFriendNickName, String userFriendHead) {
+        ElementFriendUser friendUser = new ElementFriendUser(userFriendId, userFriendNickName, userFriendHead);
+        Pane pane = friendUser.pane();
+        // 添加到好友列表
+        ListView<Pane> userListView = $("userListView", ListView.class);
+        ObservableList<Pane> items = userListView.getItems();
+        items.add(pane);
+        userListView.setPrefHeight(80 * items.size());
+        $("friendUserList", Pane.class).setPrefHeight(80 * items.size());
+        // 选中
+        if (selected) {
+            userListView.getSelectionModel().select(pane);
+        }
+        // 添加监听事件
+        pane.setOnMousePressed(event -> {
+            clearViewListSelectedAll($("friendList", ListView.class), $("groupListView", ListView.class));
+        });
     }
 
 }

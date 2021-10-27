@@ -63,8 +63,13 @@ public class Main extends Application {
                 chat.addTalkMsgUserLeft("1000005", "OK OK", new Date(), true, true, false);
                 chat.addTalkMsgUserLeft("1000005", "明天晚上一起去", new Date(), true, false, true);
 
+                // 群组
+                chat.addFriendGroup("2000001", "2126班级群", "https://static01.imgkr.com/temp/b896da6a9a2d4c089267ce80a76c69fe.jpeg");
+                chat.addFriendGroup("2000002", "305人类好质量男性", "https://static01.imgkr.com/temp/65ddf0ccb383406daf78f0cfafbf8de4.jpeg");
+
+
                 // 群组 - 对话框
-                chat.addTalkBox(0, 1, "5307397", "人类高质量男性（6）", "https://urlify.cn/muQRji", "", new Date(), true);
+                chat.addTalkBox(0, 1, "5307397", "人类高质量男性（6）", "https://static01.imgkr.com/temp/65ddf0ccb383406daf78f0cfafbf8de4.jpeg", "", new Date(), true);
                 chat.addTalkMsgRight("5307397", "明天满课，别卷了，求求了", new Date(), true, true, false);
                 chat.addTalkMsgRight("5307397", "睡觉吧，狗命要紧！！！", new Date(), true, true, false);
                 chat.addTalkMsgGroupLeft("5307397", "1000003", "许隆", "https://urlify.cn/EnEFFz", "睡什么睡！", new Date(), true, false, true);
@@ -73,6 +78,14 @@ public class Main extends Application {
                 chat.addTalkMsgGroupLeft("5307397", "1000011", "金帅", "https://urlify.cn/jMZZri", "你这个年龄阶段，怎么睡得着的", new Date(), true, false, true);
                 chat.addTalkMsgGroupLeft("5307397", "1000005", "郝鑫", "https://urlify.cn/VreIRv", "你睡得什么的觉！", new Date(), true, false, true);
                 chat.addTalkMsgRight("5307397", "好吧好吧，吴文杰明天帮我带早饭哈", new Date(), true, true, false);
+
+                // 好友
+                chat.addFriendUser(false, "1000001", "许老师", "https://urlify.cn/ZNJJJr");
+                chat.addFriendUser(false, "1000011", "金帅", "https://urlify.cn/jMZZri");
+                chat.addFriendUser(false, "1000003", "许隆", "https://static01.imgkr.com/temp/65c999b2caab4edfb92010f9cc8a3ca3.jpeg");
+                chat.addFriendUser(false, "1000014", "陈冬兴", "https://static01.imgkr.com/temp/c7cefc7da5594f9f94e1fd77db2083d2.jpeg");
+                chat.addFriendUser(false, "1000002", "吴文杰", "https://urlify.cn/muQRji");
+                chat.addFriendUser(false, "1000005", "郝鑫", "https://urlify.cn/VreIRv");
             }
             else {
                 ILoginMethod loginMethod = new LoginController(new ILoginEvent() {
