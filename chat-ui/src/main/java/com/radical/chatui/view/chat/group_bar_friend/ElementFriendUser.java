@@ -8,7 +8,7 @@ import javafx.scene.layout.Pane;
 /**
  * 添加好友
  *
- * @author mqxu
+ * @author radical
  */
 public class ElementFriendUser {
 

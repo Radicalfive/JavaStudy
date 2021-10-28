@@ -8,7 +8,7 @@ import javafx.scene.layout.Pane;
 /**
  * 占位标签:新的朋友、公众号、群组、好友
  *
- * @author mqxu
+ * @author radical
  */
 public class ElementFriendTag {
 

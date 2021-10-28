@@ -9,7 +9,7 @@ import javafx.scene.layout.Pane;
 /**
  * 群组列表
  *
- * @author mqxu
+ * @author radical
  */
 public class ElementFriendGroupList {
 

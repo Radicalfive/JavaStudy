@@ -8,7 +8,7 @@ import javafx.scene.layout.Pane;
 /**
  * 好友列表组件
  *
- * @author mqxu
+ * @author radical
  */
 public class ElementFriendUserList {
 

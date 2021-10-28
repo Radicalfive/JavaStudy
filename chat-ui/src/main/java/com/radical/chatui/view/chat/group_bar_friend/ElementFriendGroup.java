@@ -10,7 +10,7 @@ import com.radical.chatui.view.chat.data.GroupsData;
 /**
  * 群组元素
  *
- * @author mqxu
+ * @author radical
  */
 public class ElementFriendGroup {
 
