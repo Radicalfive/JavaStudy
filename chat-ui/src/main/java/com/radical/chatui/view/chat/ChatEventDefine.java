@@ -64,7 +64,7 @@ public class ChatEventDefine {
     private void switchBarChat(Button barChat, Pane groupBarChat, boolean toggle) {
         if (toggle) {
             groupBarChat.setVisible(true);
-            barChat.getGraphic().setStyle("-fx-icon-color:'#9E99EE'");
+            barChat.getGraphic().setStyle("-fx-icon-color:'#1B9CFC'");
         } else {
             groupBarChat.setVisible(false);
             barChat.getGraphic().setStyle("-fx-icon-color:'#6F6F70'");
@@ -74,7 +74,7 @@ public class ChatEventDefine {
     private void switchBarFriend(Button barFriend, Pane groupBarFriend, boolean toggle) {
         if (toggle) {
             groupBarFriend.setVisible(true);
-            barFriend.getGraphic().setStyle("-fx-icon-color:'#9E99EE'");
+            barFriend.getGraphic().setStyle("-fx-icon-color:'#1B9CFC'");
         } else {
             groupBarFriend.setVisible(false);
             barFriend.getGraphic().setStyle("-fx-icon-color:'#6F6F70'");
@@ -85,7 +85,7 @@ public class ChatEventDefine {
     private void switchBarLocation(Button barLocation, Pane groupBarLocation, boolean toggle) {
         if (toggle) {
             groupBarLocation.setVisible(true);
-            barLocation.getGraphic().setStyle("-fx-icon-color:'#9E99EE'");
+            barLocation.getGraphic().setStyle("-fx-icon-color:'#1B9CFC'");
         } else {
             groupBarLocation.setVisible(false);
             barLocation.getGraphic().setStyle("-fx-icon-color:'#6F6F70'");
@@ -95,7 +95,7 @@ public class ChatEventDefine {
     private void switchBarSet(Button barSet, Pane groupBarSet, boolean toggle) {
         if (toggle) {
             groupBarSet.setVisible(true);
-            barSet.getGraphic().setStyle("-fx-icon-color:'#9E99EE'");
+            barSet.getGraphic().setStyle("-fx-icon-color:'#1B9CFC'");
         } else {
             groupBarSet.setVisible(false);
             barSet.getGraphic().setStyle("-fx-icon-color:'#6F6F70'");

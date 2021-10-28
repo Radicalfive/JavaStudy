@@ -193,7 +193,7 @@ public class ChatView {
                 element.friendListView().getItems().add(new ElementFriendNewUser("1000006", "Jcean", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/phy.jpg", 0).pane());
                 element.friendListView().getItems().add(new ElementFriendNewUser("1000007", "郭佳", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/gj.jpg", 1).pane());
                 element.friendListView().getItems().add(new ElementFriendNewUser("1000008", "王潇", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/wx.jpg", 2).pane());
-                element.friendListView().getItems().add(new ElementFriendNewUser("1000111", "朱老师", "https://static01.imgkr.com/temp/6c0410239c824014a7f5e93657d500ea.jpeg", 3).pane());
+                element.friendListView().getItems().add(new ElementFriendNewUser("1000111", "卖茶叶的", "https://static01.imgkr.com/temp/6c0410239c824014a7f5e93657d500ea.jpeg", 3).pane());
             }
         });
     }

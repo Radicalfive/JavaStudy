@@ -93,6 +93,8 @@ public class ElementFriendNewUser {
             statusText = "允许";
         } else if (2 == status) {
             statusText = "已添加";
+        } else if (3 == status) {
+            statusText = "拒绝";
         }
         statusLabel.setText(statusText);
         statusLabel.setUserData(status);

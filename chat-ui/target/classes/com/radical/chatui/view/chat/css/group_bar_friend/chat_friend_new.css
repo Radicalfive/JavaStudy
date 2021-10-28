@@ -132,6 +132,21 @@
     -fx-border-radius: 2px;
 }
 
+.elementFriendNewUser_statusLabel_3,.elementFriendNewUser_statusLabel_3:pressed{
+    -fx-background-color: #bb3737;
+    -fx-text-align: center;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-alignment: center;
+    -fx-background-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 2px;
+}
+
+.elementFriendNewUser_statusLabel_3:hover{
+    -fx-background-color: #9b0000;
+}
+
 .elementFriendNewUser_statusLabel_1:hover{
     -fx-background-color: #1aad19;
 }
