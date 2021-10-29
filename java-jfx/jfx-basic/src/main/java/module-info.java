@@ -1,6 +1,7 @@
 module com.radical.jfxbasic {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.web;
 
 
     opens com.radical.jfxbasic to javafx.fxml;

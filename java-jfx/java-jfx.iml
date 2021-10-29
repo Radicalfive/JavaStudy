@@ -30,5 +30,9 @@
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: net.java.dev.jna:jna-platform:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.78" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-web:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-web:win:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:17.0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-media:win:17.0.0.1" level="project" />
   </component>
 </module>
