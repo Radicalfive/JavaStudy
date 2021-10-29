@@ -15,6 +15,9 @@ module com.radical.jfxbasic {
     exports com.radical.jfxbasic.animate;
     opens com.radical.jfxbasic.animate to javafx.fxml;
 
+    exports com.radical.jfxbasic.control;
+    opens com.radical.jfxbasic.control to javafx.fxml;
+
     requires com.github.oshi;
     requires fastjson;
     requires java.desktop;
