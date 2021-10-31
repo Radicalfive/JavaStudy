@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b72b9d6c-8cc8-4d92-bb64-62523300e6ed" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../tools/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="C:\tools\apache-maven-3.8.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20Go2OUCTZb9ZJInlUWLako3i7a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/netty-demo-1-04/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\test\Desktop\JavaStudy\netty-demo\netty-demo-1-04\src\main\java" />
+      <recent name="C:\Users\test\Desktop\JavaStudy\netty-demo\netty-demo-1-02" />
+      <recent name="C:\Users\test\Desktop\JavaStudy\netty-demo\netty-demo-1-01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\test\Desktop\JavaStudy\netty-demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Workspace">
+    <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
+      <module name="netty-demo-1-06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
+      <module name="netty-demo-1-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
+      <module name="netty-demo-1-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
+      <module name="netty-demo-1-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
+      <module name="netty-demo-1-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Workspace" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.assistant.view.Workspace" />
+      <module name="netty-assistant" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.assistant.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Workspace" />
+      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.NettyServer (2)" />
+      <item itemvalue="Application.NettyServer (3)" />
+      <item itemvalue="Application.NettyServer (4)" />
+      <item itemvalue="Application.NettyServer (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NettyServer (1)" />
+        <item itemvalue="Application.NettyServer (4)" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.NettyServer (3)" />
+        <item itemvalue="Application.NettyServer (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b72b9d6c-8cc8-4d92-bb64-62523300e6ed" name="Changes" comment="" />
+      <created>1635680088958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635680088958</updated>
+      <workItem from="1635680090363" duration="25000" />
+      <workItem from="1635680366639" duration="1646000" />
+      <workItem from="1635682068178" duration="2799000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
