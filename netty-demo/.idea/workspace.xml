@@ -50,9 +50,11 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
@@ -66,48 +68,48 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Workspace">
+    <configuration name="NettyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.client.NettyClient" />
+      <module name="netty-demo-1-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.client.NettyClient" />
+      <module name="netty-demo-1-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.client.NettyClient" />
+      <module name="netty-demo-1-10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
-      <module name="netty-demo-1-06" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
-      <module name="netty-demo-1-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyServer (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
-      <module name="netty-demo-1-04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyServer (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
-      <module name="netty-demo-1-05" />
+      <module name="netty-demo-1-10" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.radical.netty.demo.server.*" />
@@ -120,7 +122,7 @@
     </configuration>
     <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
-      <module name="netty-demo-1-02" />
+      <module name="netty-demo-1-09" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.radical.netty.demo.server.*" />
@@ -146,19 +148,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Workspace" />
+      <item itemvalue="Application.NettyClient (1)" />
       <item itemvalue="Application.NettyServer" />
-      <item itemvalue="Application.NettyServer (2)" />
-      <item itemvalue="Application.NettyServer (3)" />
-      <item itemvalue="Application.NettyServer (4)" />
+      <item itemvalue="Application.NettyClient (2)" />
+      <item itemvalue="Application.NettyClient (3)" />
       <item itemvalue="Application.NettyServer (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NettyClient (3)" />
         <item itemvalue="Application.NettyServer (1)" />
-        <item itemvalue="Application.NettyServer (4)" />
+        <item itemvalue="Application.NettyClient (2)" />
         <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.NettyServer (3)" />
-        <item itemvalue="Application.NettyServer (2)" />
+        <item itemvalue="Application.NettyClient (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +175,9 @@
       <workItem from="1635680090363" duration="25000" />
       <workItem from="1635680366639" duration="1646000" />
       <workItem from="1635682068178" duration="2799000" />
+      <workItem from="1635691813630" duration="150000" />
+      <workItem from="1635757332062" duration="1073000" />
+      <workItem from="1635761621531" duration="730000" />
     </task>
     <servers />
   </component>
