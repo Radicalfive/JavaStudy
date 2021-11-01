@@ -67,7 +67,7 @@
       <recent name="C:\Users\test\Desktop\JavaStudy\netty-demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Workspace">
+  <component name="RunManager" selected="Application.NettyServer (1)">
     <configuration name="NettyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.client.NettyClient" />
       <module name="netty-demo-1-08" />
@@ -109,7 +109,7 @@
     </configuration>
     <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
-      <module name="netty-demo-1-10" />
+      <module name="netty-demo-1-11" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.radical.netty.demo.server.*" />
@@ -123,6 +123,19 @@
     <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
       <module name="netty-demo-1-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
+      <module name="netty-demo-1-10" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.radical.netty.demo.server.*" />
@@ -156,11 +169,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NettyServer (1)" />
         <item itemvalue="Application.NettyClient (3)" />
         <item itemvalue="Application.NettyServer (1)" />
         <item itemvalue="Application.NettyClient (2)" />
         <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.NettyClient (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +190,7 @@
       <workItem from="1635682068178" duration="2799000" />
       <workItem from="1635691813630" duration="150000" />
       <workItem from="1635757332062" duration="1073000" />
-      <workItem from="1635761621531" duration="730000" />
+      <workItem from="1635761621531" duration="1091000" />
     </task>
     <servers />
   </component>
