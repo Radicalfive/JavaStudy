@@ -13,6 +13,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Annotation" />
+        <option value="Kotlin Interface" />
+        <option value="Swagger" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +45,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -67,13 +75,13 @@
       <recent name="C:\Users\test\Desktop\JavaStudy\netty-demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NettyServer (1)">
-    <configuration name="NettyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.client.NettyClient" />
-      <module name="netty-demo-1-08" />
+  <component name="RunManager" selected="Application.NettyClient">
+    <configuration name="ApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.ApiTest" />
+      <module name="netty-demo-2-02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.radical.netty.demo.client.*" />
+          <option name="PATTERN" value="com.radical.netty.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.client.NettyClient" />
-      <module name="netty-demo-1-09" />
+    <configuration name="MessageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radicalnetty.demo.domain.MessageTest" />
+      <module name="netty-demo-2-02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.radical.netty.demo.client.*" />
+          <option name="PATTERN" value="com.radicalnetty.demo.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,25 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.client.NettyClient" />
-      <module name="netty-demo-1-10" />
+      <module name="netty-demo-2-02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.radical.netty.demo.client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
-      <module name="netty-demo-1-11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radical.netty.demo.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,7 +117,7 @@
     </configuration>
     <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.server.NettyServer" />
-      <module name="netty-demo-1-09" />
+      <module name="netty-demo-2-02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.radical.netty.demo.server.*" />
@@ -159,21 +154,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NettyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="netty-demo-2-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.radical.netty.demo.web.NettyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Workspace" />
-      <item itemvalue="Application.NettyClient (1)" />
+      <item itemvalue="Spring Boot.NettyApplication" />
+      <item itemvalue="Application.MessageTest" />
+      <item itemvalue="Application.ApiTest" />
       <item itemvalue="Application.NettyServer" />
-      <item itemvalue="Application.NettyClient (2)" />
-      <item itemvalue="Application.NettyClient (3)" />
-      <item itemvalue="Application.NettyServer (1)" />
+      <item itemvalue="Application.NettyClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NettyServer (1)" />
-        <item itemvalue="Application.NettyClient (3)" />
-        <item itemvalue="Application.NettyServer (1)" />
-        <item itemvalue="Application.NettyClient (2)" />
+        <item itemvalue="Application.NettyClient" />
         <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.ApiTest" />
+        <item itemvalue="Application.MessageTest" />
+        <item itemvalue="Spring Boot.NettyApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +198,9 @@
       <workItem from="1635682068178" duration="2799000" />
       <workItem from="1635691813630" duration="150000" />
       <workItem from="1635757332062" duration="1073000" />
-      <workItem from="1635761621531" duration="1091000" />
+      <workItem from="1635761621531" duration="4216000" />
+      <workItem from="1635831455957" duration="576000" />
+      <workItem from="1635852217828" duration="4785000" />
     </task>
     <servers />
   </component>
