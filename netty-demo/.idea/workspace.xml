@@ -17,8 +17,9 @@
         <option value="Kotlin Interface" />
         <option value="Swagger" />
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="package-info" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -87,33 +89,7 @@
       <recent name="com.radical.netty.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NettyClient (1)">
-    <configuration name="ApiTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.ApiTest" />
-      <module name="netty-demo-2-04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radical.netty.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.ApiTest" />
-      <module name="netty-demo-2-04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.radical.netty.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SocketServerDemo">
     <configuration name="ApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.ApiTest" />
       <module name="netty-demo-2-02" />
@@ -179,6 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SocketServerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.radical.netty.demo.SocketServerDemo" />
+      <module name="netty-demo-websocket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.radical.netty.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Workspace" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.radical.netty.assistant.view.Workspace" />
       <module name="netty-assistant" />
@@ -196,17 +185,17 @@
       <item itemvalue="Application.Workspace" />
       <item itemvalue="Application.NettyServer (1)" />
       <item itemvalue="Application.NettyClient (1)" />
-      <item itemvalue="Application.ApiTest (1)" />
       <item itemvalue="Application.NettyServerTest" />
       <item itemvalue="Application.NettyClientTest" />
+      <item itemvalue="Application.SocketServerDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocketServerDemo" />
         <item itemvalue="Application.NettyClient (1)" />
         <item itemvalue="Application.NettyServer (1)" />
         <item itemvalue="Application.NettyClientTest" />
         <item itemvalue="Application.NettyServerTest" />
-        <item itemvalue="Application.ApiTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +217,8 @@
       <workItem from="1635852217828" duration="5554000" />
       <workItem from="1635917366363" duration="6442000" />
       <workItem from="1635931544740" duration="38000" />
-      <workItem from="1635944451951" duration="1010000" />
+      <workItem from="1635944451951" duration="1756000" />
+      <workItem from="1636041367796" duration="629000" />
     </task>
     <servers />
   </component>
