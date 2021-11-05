@@ -5,4 +5,6 @@ module com.radical.linechar {
 
     opens com.radical.linechar to javafx.fxml;
     exports com.radical.linechar;
+
+
 }

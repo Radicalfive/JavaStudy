@@ -48,6 +48,8 @@
             <artifactId>ikonli-materialdesign-pack</artifactId>
             <version>11.3.5</version>
         </dependency>
+
+
     </dependencies>
 
     <build>

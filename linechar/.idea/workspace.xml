@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,6 +59,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
@@ -95,6 +96,9 @@
       <option name="presentableId" value="Default" />
       <updated>1634385989637</updated>
       <workItem from="1634385991038" duration="5942000" />
+      <workItem from="1634394592901" duration="1339000" />
+      <workItem from="1634474666535" duration="2922000" />
+      <workItem from="1634909622198" duration="2094000" />
     </task>
     <servers />
   </component>

@@ -14,14 +14,12 @@ import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * @description: 基于WebSocket协议的服务端
  * @author: radical
  * @date: 2021-11-04
  **/
-@Slf4j
 public class SocketServerDemo {
 
     public static void main(String[] args) throws Exception {
