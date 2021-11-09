@@ -15,5 +15,8 @@ public class Client {
         pih.setTarget(userService);
         UserService proxy = (UserService) pih.getProxy();
         proxy.update();
+        proxy.add();
+        proxy.delete();
+        proxy.query();
     }
 }

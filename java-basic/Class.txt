@@ -1,0 +1,2 @@
+className=com.wx.java.basic.reflection.Person
+methodName=getPerson
