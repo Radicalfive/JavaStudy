@@ -7,7 +7,7 @@ import java.util.Properties;
 /**
  * @program: java-basic
  * @description: 通过反射获取配置文件中内容调用类中方法
- * @author: bearcad
+ * @author: radical
  * @create: 2021-11-09 20:34
  **/
 public class ReflectDemo5 {
